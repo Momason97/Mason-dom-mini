@@ -1,0 +1,54 @@
+section {
+  padding: 10px;
+  margin: 5px;
+}
+
+.penny {
+  border-radius: 50%;
+  color: white;
+  height: 50px;
+  width: 50px;
+  border: solid 2px black;
+  background-color: brown;
+  align-items: center;
+}
+
+.nickel {
+  border-radius: 50%;
+  color: white;
+  height: 50px;
+  width: 50px;
+  border: solid 2px black;
+  background-color: silver;
+  align-items: center;
+}
+
+.dime {
+  border-radius: 50%;
+  color: white;
+  height: 50px;
+  width: 50px;
+  border: solid 2px black;
+  background-color: tan;
+  align-items: center;
+}
+.quarter {
+  border-radius: 50%;
+  color: white;
+  height: 50px;
+  width: 50px;
+  border: solid 2px black;
+  background-color: goldenrod;
+  align-items: center;
+}
+
+.light {
+  height: 100px;
+  width: 50px;
+  border: 1px black solid;
+  margin-top: 100px;
+  background-color: gray;
+}
+.turn-on {
+  background-color: yellow;
+}

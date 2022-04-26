@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM lab 1</title>
-    <link src="stlye.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <section class="vending-machine">
@@ -15,8 +15,28 @@
       <button class="vending chocolate">Chocolate Bar $4.00</button>
       <button class="vending gummies">Fruit Gummie $6.00</button>
     </section>
-    <section class="make-money"></section>
-    <section class="light-bulb"></section>
+    <section class="make-money">
+      <form class="money-creator">
+        <label for="howMany">How many?</label>
+        <input type="number" name="howMany" id="howMany" />
+        <label for="whichCoin">Which coin?</label>
+        <select name="whichCoinSelected" id="whichCoin" form="whichCoin">
+          <option value="penny">Penny</option>
+          <option value="nickel">Nickel</option>
+          <option value="dime">Dime</option>
+          <option value="quarter">Quarter</option>
+        </select>
+        <button class="make-money">Make Money!</button>
+      </form>
+      <div class="money"></div>
+    </section>
+    <section class="light-bulb">
+      <div class="light"></div>
+      <button class="on btn">On</button>
+      <button class="off btn">Off</button>
+      <button class="toggle btn">Toggle</button>
+      <button class="end btn">End</button>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
